@@ -7,7 +7,7 @@ use std::path::Path;
 fn main() {
     let matches = App::new("My Grep")
         .version("1.0")
-        .author("Your Name <you@example.com>")
+        .author("Rajesh Kumar")
         .about("Searches recursively for a string in a directory")
         .arg(
             Arg::with_name("directory")
